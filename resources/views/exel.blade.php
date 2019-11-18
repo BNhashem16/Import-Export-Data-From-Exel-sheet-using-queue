@@ -25,7 +25,8 @@
                 <tr>
                     <th>Name</th>
                     <th>Email Address</th>
-                    <th>Password</th>
+                    <th>Age</th>
+                    <th>Phone</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -33,7 +34,8 @@
                     <tr>
                         <td>{{ $row->name }}</td>
                         <td>{{ $row->email }}</td>
-                        <td>{{ $row->password }}</td>
+                        <td>{{ $row->age }}</td>
+                        <td>{{ $row->phone }}</td>
                     </tr>
                 @endforeach
                 </tbody>

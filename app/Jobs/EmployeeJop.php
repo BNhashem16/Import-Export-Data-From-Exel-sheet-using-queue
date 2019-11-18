@@ -4,7 +4,6 @@ namespace App\Jobs;
 
 use App\Empolyee;
 use App\Imports\ImportEmployee;
-use App\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -13,26 +12,17 @@ use Illuminate\Queue\SerializesModels;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
 use Maatwebsite\Excel\Facades\Excel;
+use Maatwebsite\Excel\Concerns\Importable;
 
 class EmployeeJop implements ToModel , WithChunkReading, ShouldQueue
 {
-    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels , \Maatwebsite\Excel\Concerns\Importable;
+    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels , Importable;
 
-    /**
-     * Create a new job instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         //
     }
 
-    /**
-     * Execute the job.
-     *
-     * @return void
-     */
     public function handle()
     {
         Excel::import(new ImportEmployee, request()->file('file'));

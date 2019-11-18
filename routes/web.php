@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-#Import
+#Import Route
 Route::get('import', 'ExelController@index');
 Route::post('import/file', 'ExelController@import')->name('import');
-#Export
-Route::get('export', 'ExelController@csv_export')->name('export');
+#Export Route
+Route::get('export', 'ExelController@export')->name('export');
