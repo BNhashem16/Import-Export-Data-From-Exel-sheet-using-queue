@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79d7c05f-3971-4b09-91dc-e525dc79044c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exports/ImportEmployee.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ExelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ExelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Imports/ImportEmployee.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Imports/ImportEmployee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/EmployeeJop.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/EmployeeJop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/exel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/exel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574100562904</updated>
-      <workItem from="1574100564836" duration="13454000" />
+      <workItem from="1574100564836" duration="14142000" />
     </task>
     <servers />
   </component>
